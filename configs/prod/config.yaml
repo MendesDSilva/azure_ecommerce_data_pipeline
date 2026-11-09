@@ -1,0 +1,9 @@
+environment: prod
+
+api:
+  page_size: 100
+  timeout: 30
+
+storage:
+  filesystem: bronze
+  base_path: dummyjson/prod
