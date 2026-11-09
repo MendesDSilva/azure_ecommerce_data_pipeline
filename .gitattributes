@@ -1,0 +1,22 @@
+# Padronização dos arquivos de texto
+* text=auto
+
+# Arquivos de configuração e código
+*.py text eol=lf
+*.toml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+
+# Arquivos de ambiente
+.env.example text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Arquivos binários
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.parquet binary
