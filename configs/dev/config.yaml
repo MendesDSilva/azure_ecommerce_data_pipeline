@@ -1,0 +1,9 @@
+environment: dev
+
+api:
+  page_size: 10
+  timeout: 30
+
+storage:
+  filesystem: bronze
+  base_path: dummyjson/dev
